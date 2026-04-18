@@ -1,0 +1,63 @@
+#Brasil Encantado – Portal Turístico Interativo
+
+## Descrição do Projeto
+
+Portal turístico interativo fictício voltado para divulgar destinos turísticos brasileiros.
+
+Agência fictícia: Brasil Encantado  
+Tema: Descubra o Brasil  
+Disciplina: Desenvolvimento Web – 1º Semestre  
+Ano: 2026
+## Estrutura do Projeto
+/projeto-turismo
+│
+├── index.html          → Página inicial com destaque, regiões e vídeos
+├── destinos.html       → Destinos turísticos por região do Brasil
+├── gastronomia.html    → Culinária típica de cada região
+├── contato.html        → Formulário de contato e informações da agência
+│
+├── style.css (Arquivo CSS externo)
+│          
+│
+├── img/
+│   ├── amazonia.jpg
+│   ├── nordeste.jpg
+│   ├── sudeste.jpg
+│   ├── sul.jpg
+│   ├── norte.jpg
+│   ├── noronha.jpg
+│   ├── lencois.jpg
+│   ├── jericoacoara.jpg
+│   ├── riodejaneiro.jpg
+│   ├── ouropreto.jpg
+│   ├── iguacu.jpg
+│   ├── gramado.jpg
+│   ├── encontro.jpg
+│   ├── bonito.jpg
+│   ├── chapada.jpg
+│   ├── feijoada.jpg
+│   ├── acaraje.jpg
+│   ├── carne-seca.jpg
+│   ├── tapioca.jpg
+│   ├── pao-de-queijo.jpg
+│   ├── virado.jpg
+│   ├── churrasco.jpg
+│   ├── acai.jpg
+│   └── tucuma.jpg
+│
+└── README.md
+
+## Páginas
+
+| Página | (Descrição)
+| `index.html` | Página inicial |
+| `destinos.html` | Destinos organizados por região|
+| `gastronomia.html` | Pratos típicos de cada região|
+| `contato.html` | Formulário completo |
+
+# Integrantes
+
+- Pedro de Toledo Elias
+João Vitor Andriota
+# Link do site:
+

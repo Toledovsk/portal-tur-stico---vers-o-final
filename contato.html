@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brasil</title>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="logo">🌿 Brasil Encantado</div>
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="gastronomia.html">Gastronomia</a>
+            <a href="contato.html" class="ativa">Contato</a>
+        </nav>c
+    </header>
+
+    <section class="hero" id="contato-hero">
+        <div>
+            <h1>Fale com a Gente</h1>
+            <p>Tem dúvidas sobre algum destino ou quer conhecer nossos pacotes? Estamos aqui para ajudar!</p>
+        </div>
+    </section>
+    <div class="layout">
+
+        <aside class="sidebar">
+            <h3>Atendimento</h3>
+            <a href="#formulario">📋 Formulário</a>
+            <a href="#info">📍 Informações</a>
+
+            <div class="aside-box">
+                <h4>🕐 Horário</h4>
+                <p>Segunda a Sexta:<br>08h às 18h</p>
+                <p>Sábados:<br>09h às 13h</p>
+                <div>
+
+                    <div class="aside-box">
+                        <h4>💬 Atendimento Rápido</h4>
+                        <p>Resposta em até 24 horas úteis pelo e-mail ou formulário.</p>
+                        <p>Para urgências, ligue diretamente.</p>
+                    </div>
+
+                    <div class="aside-box">
+                        <h4>🌐 Redes Sociais</h4>
+                        <p>📸 @brasilencantado</p>
+                        <p>📘 /brasilencantado</p>
+                        <p>🐦 @brasil_encantado</p>
+                    </div>
+        </aside>
+
+        <main class="content">
+            <h2>Entre em Contato</h2>
+
+            <section id="info">
+                <h3>Nossas Informações</h3>
+                <div class="info-grid">
+                    <div class="info-box">
+                        <div class="icon">📍</div>
+                        <h4>Endereço</h4>
+                        <p>Av. Paulista, 1000<br>São Paulo – SP<br>CEP: 01310-000</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="icon">📞</div>
+                        <h4>Telefone</h4>
+                        <p>(11) 9 9999-8888<br>(11) 3333-4444<br>WhatsApp disponível</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="icon">📧</div>
+                        <h4>E-mail</h4>
+                        <p>contato@brasilencantado.com.br<br>suporte@brasilencantado.com.br</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="icon">🕐</div>
+                        <h4>Horário</h4>
+                        <p>Seg – Sex: 08h às 18h<br>Sáb: 09h às 13h<br>Dom: Fechado</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="formulario">
+                <h3>Envie sua Mensagem</h3>
+                <div class="contato-box">
+                    <p>Preencha o formulário abaixo e retornaremos em breve. Todos os campos são obrigatórios.</p>
+
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Seu nome completo">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seu@email.com">
+
+                    <label for="telefone">Telefone (opcional)</label>
+                    <input type="tel" id="telefone" placeholder="(11) 9 9999-0000">
+
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto">
+                        <option value="">Selecione um assunto...</option>
+                        <option value="destinos">Informações sobre destinos</option>
+                        <option value="pacotes">Pacotes turísticos</option>
+                        <option value="gastronomia">Gastronomia e restaurantes</option>
+                        <option value="duvidas">Dúvidas gerais</option>
+                        <option value="parceria">Parceria / Colaboração</option>
+                    </select>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+                    <button onclick="alert('Mensagem enviada com sucesso! Entraremos em contato em até 24 horas.')">
+                        ✉️ Enviar Mensagem
+                    </button>
+                </div>
+            </section>
+
+            <section id="sobre">
+                <h3>Sobre o Projeto</h3>
+                <div class="feature-area">
+                    <div class="img-placeholder">
+                        🇧🇷
+                        <span>Brasil Encantado</span>
+                    </div>
+                    <div class="feature-text">
+                        <span class="badge">Projeto Acadêmico 2026</span>
+                        <h4>Quem somos</h4>
+                        <p>
+                            O Brasil Encantado é um portal turístico criado como projeto acadêmico
+                            do primeiro semestre do curso de engenharia da computação EEP. Nosso objetivo é apresentar a
+                            riqueza
+                            cultural, gastronômica e paisagística do Brasil de forma organizada e acessível.
+                        </p>
+                        <p style="margin-top:10px;">
+                            <strong>Integrantes:</strong> Pedro de Toledo Elias,João Vitor Andriota.<br>
+                            <strong>Disciplina:</strong> Desenvolvimento Web – 1º Semestre.<br>
+                            <strong>Ano:</strong> 2026.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>🌿 Brasil Encantado</h4>
+                <p>Portal turístico interativo dedicado a mostrar as belezas e riquezas do Brasil.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Páginas</h4>
+                <a href="index.html">Início</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="gastronomia.html">Gastronomia</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-col">
+                <h4>Integrantes</h4>
+                <p>Pedro de Toledo Elias</p>
+                <p>João Vitor Andriota</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contato Fictício</h4>
+                <p>📧 contato@brasilencantado.com.br</p>
+                <p>📞 (11) 9 9999-8888</p>
+                <p>📍 São Paulo – SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>- 2026 Brasil Encantado –</p>
+        </div>
+    </footer>
+</body>
+
+</html>
